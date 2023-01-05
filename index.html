@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <title>Marquee-page</title>
     <link rel="icon" type="image/x-icon" href="/images/hero.png">
+    <style>
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    </style>
 
 </head>
 
@@ -16,7 +22,8 @@
         <nav class="navbar navbar-expand-lg bg-light pt-4">
             <div class="container-xxl">
                 <a class="navbar-brand"  href="#">
-                    <img src="images/header-logo.png"  width="280" height="53" class="img-fluid" alt=""></a>
+                    <img src="images/header-logo.png"  width="280" height="53" class="img-fluid" alt="header-logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -69,27 +76,31 @@
                 </div>
             </div>
             <div class="col-md-6 order-md-2 order-1">
-                <img src="images/hero.png" class="img-fluid" alt="">
+                <img src="images/hero.png" class="img-fluid" alt="hero-image">
             </div>
         </div>
     </section>
     <section class="bg-dark">
         <div class="container-xxl pt-5">
-            <div class="pt-5">
-                <div class="pt-5 d-flex justify-content-md-start justify-content-center">
-                    <h3 class="fs-5 text-info">What We Can Do For You</h3>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="pt-5">
+                        <div class="pt-5 d-flex justify-content-md-start justify-content-center">
+                            <h3 class="fs-5 text-info">What We Can Do For You</h3>
+                        </div>
+                        <div>
+                            <h2 class="display-3 fw-bold text-light d-flex justify-content-md-start justify-content-center">
+                                Services we can help you with
+                            </h2>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="display-3 fw-bold text-light d-flex justify-content-md-start justify-content-center">
-                        Services we can
-                        <br>
-                        help you with
-                    </h2>
-                </div>
+                <div class="col"></div>
+                <div class="col"></div>
             </div>
             <div class="row mt-4 pb-5">
                 <div class="col-lg-4 col-md-6 p-4 text-center">
-                    <img class="mb-3" src="images/services/well documented.png" alt="">
+                    <img class="mb-3" src="images/services/well documented.png" alt="well documented">
                     <div class="card-body text-light">
                         <h3 class="card-title mb-4 fs-5">Well Documented</h3>
                         <p class="card-text text-white-50 lh-lg">Well Documented code helps to give idea to other
@@ -97,7 +108,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-4 text-center">
-                    <img class="mb-3" src="images/services/responsive.png" alt="">
+                    <img class="mb-3" src="images/services/responsive.png" alt="responsive">
                     <div class="card-body text-light">
                         <h3 class="card-title mb-4 fs-5">Responsive UI/UX</h3>
                         <p class="card-text text-white-50 lh-lg">Responsive web design, looks good on a
@@ -105,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-4 text-center">
-                    <img class="mb-3" src="images/services/maintenance.png" alt="">
+                    <img class="mb-3" src="images/services/maintenance.png" alt="maintenance">
                     <div class="card-body text-light">
                         <h3 class="card-title mb-4 fs-5">Maintenance</h3>
                         <p class="card-text text-white-50 lh-lg">Maintenance of software helps you to manage software in
@@ -113,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-4 text-center">
-                    <img class="mb-3" src="images/services/mobile.png" alt="">
+                    <img class="mb-3" src="images/services/mobile.png" alt="mobile">
                     <div class="card-body text-light">
                         <h3 class="card-title mb-4 fs-5">Mobile App</h3>
                         <p class="card-text text-white-50 lh-lg">We have extensive experience with multiple mobile
@@ -122,7 +133,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-4 text-center">
-                    <img class="mb-3" src="images/services/testing.png" alt="">
+                    <img class="mb-3" src="images/services/testing.png" alt="testing">
                     <div class="card-body text-light">
                         <h3 class="card-title mb-4 fs-5">Testing</h3>
                         <p class="card-text text-white-50 lh-lg">Ensure the quality of your mobile apps and websites on
@@ -131,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 p-4 text-center">
-                    <img class="mb-3" src="images/services/web dev.png" alt="">
+                    <img class="mb-3" src="images/services/web dev.png" alt="web-dev">
                     <div class="card-body text-light">
                         <h3 class="card-title mb-4 fs-5">Web Development</h3>
                         <p class="card-text text-white-50 lh-lg">Our developers are specialized in creating websites for
@@ -159,7 +170,7 @@
                 <div class="col-md-4 align-self-center">
                     <div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/meeting.png" alt="">
+                            <img class="mb-3" src="images/our process/meeting.png" alt="/meeting">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Meet</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">To begin, determine a need. This
@@ -169,7 +180,7 @@
                             </div>
                         </div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/plan.png" alt="">
+                            <img class="mb-3" src="images/our process/plan.png" alt="plan">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Plan</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">The special team performs
@@ -182,7 +193,7 @@
                 <div class="col-md-4">
                     <div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/design.png" alt="">
+                            <img class="mb-3" src="images/our process/design.png" alt="design">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Design</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">With the criteria in place, it's
@@ -190,7 +201,7 @@
                             </div>
                         </div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/build.png" alt="">
+                            <img class="mb-3" src="images/our process/build.png" alt="build">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Build</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">It's time to construct the
@@ -199,7 +210,7 @@
                             </div>
                         </div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/testing.png" alt="">
+                            <img class="mb-3" src="images/our process/testing.png" alt="testing">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Testing</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">We'll most likely be testing,
@@ -211,7 +222,7 @@
                 <div class="col-md-4 align-self-center">
                     <div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/launch.png" alt="">
+                            <img class="mb-3" src="images/our process/launch.png" alt="launch">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Launch</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">It's time to launch the product to
@@ -220,7 +231,7 @@
                             </div>
                         </div>
                         <div class="p-4 rounded-4 shadow-lg mb-3">
-                            <img class="mb-3" src="images/our process/grow.png" alt="">
+                            <img class="mb-3" src="images/our process/grow.png" alt="grow">
                             <div class="card-body">
                                 <h3 class="card-title fs-5 text-info">Grow</h3>
                                 <p class="card-text lh-lg fw-semibold text-secondary">The final stage is to make the new
@@ -235,98 +246,104 @@
         </div>
     </section>
     <section class="text-bg-secondary">
-        <div class="container">
-            <div class="text-center pt-5 pb-4">
-                <h3 class="fs-5 text-info">We Work on Languages</h3>
-                <h2 class="display-3 fw-bold text-dark">Our Skills</h2>
-                <p class="fs-5 text-dark">We are home of dedicated, hardworking and highly skilled professionals. We <br>
-                    always strive to gain latest technology knowledge and increase talent to provide <br>
-                    best quality to our customers.
-                 </p>
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-lg-8">
+                    <div class="text-center pt-5 pb-4">
+                        <h3 class="fs-5 text-info">We Work on Languages</h3>
+                        <h2 class="display-3 fw-bold text-dark">Our Skills</h2>
+                        <p class="fs-5 text-dark">We are home of dedicated, hardworking and highly skilled professionals. We 
+                            always strive to gain latest technology knowledge and increase talent to provide 
+                            best quality to our customers.
+                         </p>
+                    </div>
+                </div>
+                <div class="col-2"></div>
             </div>
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/aspnet.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/aspnet.png" alt="aspnet">
                     <p class="p-3">Asp.net & MVC</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/uiux.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/uiux.png" alt="uiux">
                     <p class="p-3">UI / UX</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/web-devlopment.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/web-devlopment.png" alt="web-devlopment">
                     <p class="p-3">Web Development</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/wordpress.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/wordpress.png" alt="wordpress">
                     <p class="p-3">Wordpress / CMS</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/quality-Assurance.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/quality-Assurance.png" alt="quality-Assurance">
                     <p class="p-3">Quality Assurance</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/javascript.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/javascript.png" alt="javascript">
                     <p class="p-3">Java & Spring</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/php.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/php.png" alt="php">
                     <p class="p-3">PHP</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/nodejs.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/nodejs.png" alt="nodejs">
                     <p class="p-3">Node js</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/angularjs.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/angularjs.png" alt="angularjs">
                     <p class="p-3">Angular</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/drupal.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/drupal.png" alt="drupal">
                     <p class="p-3">Drupal</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/cross-platform.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/cross-platform.png" alt="cross-platform">
                     <p class="p-3">Cross Platform</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/apple.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/apple.png" alt="apple">
                     <p class="p-3">iPhone/iPad</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/android.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/android.png" alt="android">
                     <p class="p-3">Android</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/window.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/window.png" alt="window">
                     <p class="p-3">Window</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/mongodb.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/mongodb.png" alt="mongodb">
                     <p class="p-3">Mongo DB</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/sql.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/sql.png" alt="sql">
                     <p class="p-3">SQL Server</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/firebase.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/firebase.png" alt="firebase">
                     <p class="p-3">Firebase</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/magento.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/magento.png" alt="magento">
                     <p class="p-3">Magento</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/analytic.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/analytic.png" alt="analytic">
                     <p class="p-3">Analytics</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/data-visulization.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/data-visulization.png" alt="data-visulization">
                     <p class="p-3">Data Visualization</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6 p-4 text-center">
-                    <img class="img-fluid" src="images/our-skills/cms.png" alt="">
+                    <img class="img-fluid" src="images/our-skills/cms.png" alt="cms">
                     <p class="p-3">CMS Design</p>
                 </div>
             </div>
@@ -334,13 +351,16 @@
     </section>
     <section class="mb-5">
         <div class="container-xxl">
-            <div class="pt-5">
-                <h3 class="fs-5 text-info">Our Project</h3>
-                <h2 class="display-3 fw-bold pb-4">
-                    Some of our 
-                    <br>
-                    finest work.
-                </h2>
+            <div class="p-4"></div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div>
+                        <h3 class="fs-5 text-info">Our Project</h3>
+                        <h2 class="display-3 fw-bold">
+                            <span>Some of our finest work</span>
+                        </h2>
+                    </div>
+                </div>
             </div>
             <div>
                 <div class="mb-5">
@@ -358,10 +378,10 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="shadow-lg  rounded-4">
                             <div class="shadow">
-                                <img src="images/synergyadvisortools.png" class="img-fluid rounded-top" alt="">
+                                <img src="images/synergyadvisortools.png" class="img-fluid rounded-top" alt="synergy-advisor-tools">
                             </div>
                             <div class="p-4">
-                                <a href="" class="text-decoration-none text-dark">
+                                <a href="Heaplan" class="text-decoration-none text-dark">
                                     <h2 class="fs-5">Synergy Advisor Tools</h2>
                                     <p>Node JS</p>
                                 </a>
@@ -371,10 +391,10 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="shadow-lg  rounded-4">
                             <div class="shadow">
-                                <img src="images/Heaplan.png" class="img-fluid rounded-top" alt="">
+                                <img src="images/Heaplan.png" class="img-fluid rounded-top" alt="Heaplan">
                             </div>
                             <div class="p-4">
-                                <a href="" class="text-decoration-none text-dark">
+                                <a href="#" class="text-decoration-none text-dark">
                                     <h2 class="fs-5">Heaplan</h2>
                                     <p>Core PHP</p>
                                 </a>
@@ -384,10 +404,10 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="shadow-lg  rounded-4">
                             <div class="shadow">
-                                <img src="images/App-Storemock-ups.png" class="img-fluid rounded-top" alt="">
+                                <img src="images/App-Storemock-ups.png" class="img-fluid rounded-top" alt="App-Storemock-ups">
                             </div>
                             <div class="p-4">
-                                <a href="" class="text-decoration-none text-dark">
+                                <a href="#" class="text-decoration-none text-dark">
                                     <h2 class="fs-5">App Storemock-ups</h2>
                                     <p>Node JS</p>
                                 </a>
@@ -397,10 +417,10 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="shadow-lg  rounded-4">
                             <div class="shadow">
-                                <img src="images/MD2Rx.png" class="img-fluid rounded-top" alt="">
+                                <img src="images/MD2Rx.png" class="img-fluid rounded-top" alt="MD2Rx">
                             </div>
                             <div class="p-4">
-                                <a href="" class="text-decoration-none text-dark">
+                                <a href="#" class="text-decoration-none text-dark">
                                     <h2 class="fs-5">MD2Rx</h2>
                                     <p>Node JS</p>
                                 </a>
@@ -410,10 +430,10 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="shadow-lg  rounded-4">
                             <div class="shadow">
-                                <img src="images/The-Borrowing-Club.png" class="img-fluid rounded-top" alt="">
+                                <img src="images/The-Borrowing-Club.png" class="img-fluid rounded-top" alt="The-Borrowing-Club">
                             </div>
                             <div class="p-4">
-                                <a href="" class="text-decoration-none text-dark">
+                                <a href="#" class="text-decoration-none text-dark">
                                     <h2 class="fs-5">The Borrowing Club</h2>
                                     <p>Node JS</p>
                                 </a>
@@ -423,10 +443,10 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="shadow-lg  rounded-4">
                             <div class="shadow">
-                                <img src="images/The-Loan-Mentors.png" class="img-fluid rounded-top" alt="">
+                                <img src="images/The-Loan-Mentors.png" class="img-fluid rounded-top" alt="The-Loan-Mentors">
                             </div>
                             <div class="p-4">
-                                <a href="" class="text-decoration-none text-dark">
+                                <a href="#" class="text-decoration-none text-dark">
                                     <h2 class="fs-5">The Loan Mentors</h2>
                                     <p>Node JS</p>
                                 </a>
@@ -482,42 +502,50 @@
                     From getting started
                 </h2>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-6 pb-4">
-                    <div class="border-top border-3 border-info shadow-sm p-4">
-                        <p>
-                            The team did well and did exactly as asked and what was required. He <br>
-                            was responsive, actioned everything on the same day, and <br>
-                            communicated well....
-                        </p>
-                        <div class="row">
-                            <div class="col-2">
-                                <img class="img-fluid" height="70" width="70" src="images/testimonials/profile.png" alt="">
-                            </div>
-                            <div class="col-4">
-                                <p class="pt-2 fs-6">
-                                   <b> Simon Savage </b><br>
-                                    CEO, Lupin Consulting
-                                </p>
+            <div class="row g-2">
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <p>
+                                <span class="fs-5 lh-lg">
+                                    The team did well and did exactly as asked and what was required. He
+                                    was responsive, actioned everything on the same day, and
+                                    communicated well....    
+                                </span>
+                            </p>
+                            <div class="d-flex">
+                                <div class="">
+                                    <img class="img-fluid" height="70" width="70" src="images/testimonials/profile.png" alt="testimonial-first">
+                                </div>
+                                <div class="ps-4">
+                                    <div class="pt-2 fs-5">
+                                       <div><b>Simon Savage</b></div>
+                                        <span>CEO, Lupin Consulting</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 pb-4">
-                    <div class="border-top border-3 border-info shadow-sm p-4">
-                        <p class="fs-6 mb-">
-                            Excellent communication and quality work. Very responsible workers <br>
-                            and support me 24 hours.
-                        </p>
-                        <div class="row">
-                            <div class="col-2">
-                                <img class="img-fluid" height="70" width="70" src="images/testimonials/profile.png" alt="">
-                            </div>
-                            <div class="col-4">
-                                <p class="pt-2 fs-6">
-                                   <b> Arshad Khan </b><br>
-                                   CEO, The Dev Master
-                                </p>
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <p>
+                                <span class="fs-5 lh-lg">
+                                    Excellent communication and quality work. Very responsible workers
+                                    and support me 24 hours.    
+                                </span>
+                            </p>
+                            <div class="d-flex">
+                                <div class="">
+                                    <img class="img-fluid" height="70" width="70" src="images/testimonials/profile.png" alt="tentimonial-second">
+                                </div>
+                                <div class="ps-4">
+                                    <div class="pt-2 fs-5">
+                                        <div><b> Arshad Khan </b></div>
+                                        <span>CEO, The Dev Master</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -532,27 +560,27 @@
                 <h2 class="display-3 fw-bold text-dark">Latest stories</h2>
             </div>       
             <div class="row pb-5">
-                <div class="col-md-6 pb-4">
+                <div class="col-lg-6 pb-4">
                     <div class="rounded-4 shadow-lg p-4">
-                        <div class="row">
-                            <div class="col-6">
+                        <div class="row-md d-md-flex">
+                            <div class="col-md-6">
                                 <img class="img-fluid rounded-4" src="images/stories/img-1.png" alt="">
                             </div>
-                            <div class="col-6 align-self-center p-0">
-                                <p class="m-0 fs-5">Take Some Time and Meet <br>Our Employees?</p><br>
+                            <div class="col-md-6 align-self-center p-0">
+                                <p class="m-0 fs-5 pb-4">Take Some Time and Meet Our Employees?</p>
                                 <p class="m-0 fs-5 text-info">Request Quote &rarr;</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 pb-4">
+                <div class="col-lg-6 pb-4">
                     <div class="rounded-4 shadow-lg p-4">
-                        <div class="row">
-                            <div class="col-6">
+                        <div class="row-md d-md-flex">
+                            <div class="col-md-6">
                                 <img class="img-fluid rounded-4" src="images/stories/img-2.png" alt="">
                             </div>
-                            <div class="col-6 align-self-center p-0">
-                                <p class="m-0 fs-5">Need Dedicated <br>Developer?</p><br>
+                            <div class="col-md-6 align-self-center p-0">
+                                <p class="m-0 fs-5 pb-4">Need Dedicated Developer?</p>
                                 <p class="m-0 fs-5 text-info">Hire Now &rarr;</p>
                             </div>
                         </div>
